@@ -1,1 +1,5 @@
 KafkaPrincipal,ResourceType,PatternType,ResourceName,Operation,PermissionType,Host
+User:Bob,Group,LITERAL,consum-group,Read,Allow,*
+User:Bob,Topic,LITERAL,test,Describe,Allow,*
+User:Bob,Topic,LITERAL,test,Read,Allow,*
+
